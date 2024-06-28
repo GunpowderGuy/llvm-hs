@@ -76,13 +76,13 @@ library
     -fno-warn-orphans
     -optcxx=-O3
     -optcxx=-Wall
-    -optcxx=-std=c++14
+    -optcxx=-std=c++17
     -optcxx=-lstdc++
 
   cxx-options:
     -O3
     -Wall
-    -std=c++14
+    -std=c++17
 
   if flag(llvm-with-rtti)
     cxx-options: -frtti
